@@ -45,4 +45,9 @@ This project reads GPS data (latitude, longitude, time, date) and sends it over 
 
 📄 License
 
-Use it however you want—just don’t be a jerk. Don't still the code like a fucking jackass, i spent time on this! 
+Use it however you want just don’t be a jerk. Don't steal the code like a fucking jackass, i spent time on this! (https://projectbean.wasmer.app/)
+
+So what is stopping you?
+
+ Go buy a chip and get outside you lazy fuck!
+ Have fun with this, it was tested and done by real people! :)
