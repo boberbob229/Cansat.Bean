@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arduino Serial Web Interface</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    #log { white-space: pre-line; background: #eee; padding: 1rem; height: 300px; overflow-y: scroll; border-radius: 8px; }
+    #input { padding: 0.5rem; width: 300px; margin-right: 10px; }
+    button { padding: 0.5rem 1rem; cursor: pointer; }
+    #map { height: 400px; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>🛰️ Arduino Serial Monitor</h1>
+
+  <div id="log"></div>
+
+  <input id="input" placeholder="Type command..." />
+  <button onclick="send()">Send</button>
+
+  <!-- Map container -->
+  <div id="map"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    const socket = io();
+    const log = document.getElementById('log');
+
+    // Initialize the map
+    const map = L.map('map').setView([51.505, -0.09], 13); // Default coordinates (London)
+    
+    // Add OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Marker for location
+    const marker = L.marker([51.505, -0.09]).addTo(map); // Default marker
+
+    // Display incoming messages from Arduino
+    socket.on('serial-data', (data) => {
+      log.textContent += `\n📥 Arduino: ${data}`;
+      log.scrollTop = log.scrollHeight;
+
+      // Check if the data contains coordinates (latitude, longitude)
+      const coords = data.split(',');
+      if (coords.length === 2) {
+        const lat = parseFloat(coords[0]);
+        const lon = parseFloat(coords[1]);
+
+        // Update marker and map view
+        if (!isNaN(lat) && !isNaN(lon)) {
+          marker.setLatLng([lat, lon]);
+          map.setView([lat, lon], 13); // Zoom into the location
+        }
+      }
+    });
+
+    // Function to send messages to Arduino
+    function send() {
+      const input = document.getElementById('input');
+      const message = input.value;
+      if (message) {
+        socket.emit('send-to-arduino', message);
+        log.textContent += `\n📤 You: ${message}`;
+        input.value = '';
+        log.scrollTop = log.scrollHeight;
+      }
+    }
+  </script>
+</body>
+</html>
+

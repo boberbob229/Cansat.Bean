@@ -1,0 +1,131 @@
+📥 Arduino: -------------
+📥 Arduino: 
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: -------------------------------
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: 🔧 Starting Transmitter...
+📥 Arduino: ✅ Transmitter initialized. Sending data...
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 📡 Sending packet...
+📥 Arduino: Latitude: 51.507400
+📥 Arduino: Longitude: -0.127800
+📥 Arduino: Message: Ping from TX!
+📥 Arduino: ❌ Failed to send data.
+📥 Arduino: -------------------------------
+📥 Arduino: 74000
+📥 Arduino: L7800ssag-------------------ude:00
+📥 Arduino: age:ng from
+📥 Arduino: --------------...tuderom ----ude: to 4002780de: 51.507400
+📥 Arduino: Mes�� Sendi800ssagiled400om Ta.
+📥 Arduino: 0
+📥 Arduino: senta..
+📥 Arduino: to send----cketng fX!
+📥 Arduino: ❌ Send----ing .
+2025-04-15T21:13:21.117Z 📥 angitude: 0.000000
+2025-04-15T21:13:21.118Z 📥 Message:
+2025-04-15T21:13:21.119Z 📥 ---------------------------------------------------
+2025-04-15T21:13:21.119Z 📥 📨 Packet received!
+2025-04-15T21:13:21.119Z 📥 Latitude: 0.000000
+2025-04-15T21:13:21.119Z 📥 Longitude: 0.000000
+2025-04-15T21:13:21.119Z 📥 Message:
+2025-04-15T21:13:21.119Z 📥 -------------------------------�-------------------
+2025-04-15T21:13:21.120Z 📥 📨 Packet received!
+2025-04-15T21:13:21.120Z 📥 Latitude: 0.000000
+2025-04-15T21:13:21.120Z 📥 Longitude: 0.000000
+2025-04-15T21:13:21.120Z 📥 Message:
+2025-04-15T21:13:22.748Z 📥 -------------------------------�🔧 Starting Transceiver...
+2025-04-15T21:13:22.804Z 📥 ✅ Transceiver initialized. Type a message to send:
+2025-04-15T21:13:35.980Z 📥 📤 Message sent!
+2025-04-15T21:14:01.723Z 📥 📤 Message sent!
+2025-04-15T21:14:40.588Z 📥 📤 Message sent!
