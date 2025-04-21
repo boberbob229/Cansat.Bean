@@ -45,6 +45,6 @@ This project reads GPS data (latitude, longitude, time, date) and sends it over 
 
 📄 License
 
- Don't steal the code like or i WILL FIND YOU, i spent time on this! (https://projectbean.wasmer.app/)
+ Don't steal the code like or i WILL FIND YOU, i spent time on this! 
 
  Have fun with this, it was tested and done by real people! :)
